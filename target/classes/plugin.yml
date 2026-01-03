@@ -1,0 +1,32 @@
+name: JustLog
+version: '1.0-SNAPSHOT'
+main: fake.justLog.JustLog
+api-version: '1.21'
+
+prefix: JustLog
+author: FakEE7
+#contributors: []
+website: https://goldcraft.ir
+
+#load: STARTUP
+
+#depend: [PlaceholderAPI, Vault, ZNPCsPlus]
+softdepend: [PlaceholderAPI]
+
+#libraries:
+#  - com.zaxxer:HikariCP:5.1.0
+#  - org.jetbrains.exposed:exposed-core:0.50.1
+#  - org.jetbrains.exposed:exposed-jdbc:0.50.1
+#  - org.jetbrains.exposed:exposed-kotlin-datetime:0.50.1
+
+description: '${description}'
+
+permissions:
+  justlog.admin:
+    default: false
+    description: give player the item
+
+commands:
+  justlog:
+    #    aliases: [npcs, znpcs]
+    description: just Logging around
