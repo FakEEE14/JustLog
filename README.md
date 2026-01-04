@@ -28,4 +28,8 @@ lightweight stand alone Plugin
  - PlaceholderApi ([Spigot](https://www.spigotmc.org/resources/placeholderapi.6245/)/[Github](https://github.com/PlaceholderAPI/))
  - any plugin that you can use command in it
 
+### TODO
+ - mysql
+ - use local placeholders ({time} for storing the time)
+
 and you are done
